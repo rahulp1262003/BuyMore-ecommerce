@@ -1,7 +1,15 @@
 import React from 'react'
 
 import Hero from '../components/Hero'
+import Trends from './pages/Trends'
 import Explore from './pages/Explore'
+import Food from './pages/Food'
+import Cloths from './pages/Cloths'
+import Electronics from './pages/Electronics'
+import Orders from './pages/Orders'
+import Cart from './pages/Cart'
+import Settings from './pages/Settings'
+
 import FilterAndSearch from '../components/FilterAndSearch'
 import Navbar from '../components/Navbar'
 import { Routes, Route } from 'react-router-dom';
@@ -14,7 +22,15 @@ function App() {
         <Hero />
         <FilterAndSearch />
         <Routes>
+          <Route path='/' element={<Trends />} />
           <Route path='/explore' element={<Explore />} />
+          <Route path='/food' element={<Food />} />
+          <Route path='/cloths' element={<Cloths />} />
+          <Route path='/electronics' element={<Electronics />} />
+          <Route path='/orders' element={<Orders />} />
+          <Route path='/orders' element={<Orders />} />
+          <Route path='/cart' element={<Cart />} />
+          <Route path='/settings' element={<Settings />} />
         </Routes>
       </div>
     </div>
