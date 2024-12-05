@@ -38,15 +38,15 @@ function Navbar() {
                     {/* Orders and Cart */}
                     <div className='mx-4 mb-10 mt-10 bg-blue-100 rounded-2xl min-w-max flex items-start flex-col' >
                         {/* Orders */}
-                        <NavLink to="" className='py-4 px-6 flex w-full text-blue-600 hover:bg-blue-600 hover:text-white hover:rounded-t-2xl' ><span className='pr-2' ><LuListChecks size={25} /></span>Orders</NavLink>
+                        <NavLink to="/orders" className='py-4 px-6 flex w-full text-blue-600 hover:bg-blue-600 hover:text-white hover:rounded-t-2xl' ><span className='pr-2' ><LuListChecks size={25} /></span>Orders</NavLink>
 
                         {/* Cart */}
-                        <NavLink to="" className='py-4 px-6 flex w-full text-blue-600 hover:bg-blue-600 hover:text-white hover:rounded-b-2xl'><span className='pr-2'><PiShoppingCart size={25} /></span>Cart</NavLink>
+                        <NavLink to="/carts" className='py-4 px-6 flex w-full text-blue-600 hover:bg-blue-600 hover:text-white hover:rounded-b-2xl'><span className='pr-2'><PiShoppingCart size={25} /></span>Cart</NavLink>
                     </div>
 
                     {/* Settings */}
                     <div className="flex m-3 rounded-2xl">
-                        <NavLink to="" className='py-4 px-6 flex w-full hover:bg-blue-600 hover:text-white hover:rounded-2xl'><span className='pr-2 flex'><IoSettingsOutline size={25} /></span>Setting</NavLink>
+                        <NavLink to="/settings" className='py-4 px-6 flex w-full hover:bg-blue-600 hover:text-white hover:rounded-2xl'><span className='pr-2 flex'><IoSettingsOutline size={25} /></span>Setting</NavLink>
                     </div>
                 </div>
             </aside>
