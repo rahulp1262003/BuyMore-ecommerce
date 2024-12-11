@@ -9,6 +9,7 @@ import Electronics from './pages/Electronics'
 import Orders from './pages/Orders'
 import Cart from './pages/Cart'
 import Settings from './pages/Settings'
+import Login from './login'
 
 import FilterAndSearch from '../components/FilterAndSearch'
 import Navbar from '../components/Navbar'
@@ -31,6 +32,7 @@ function App() {
           <Route path='/orders' element={<Orders />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/settings' element={<Settings />} />
+          <Route path='/login' element={<Login />} />
         </Routes>
       </div>
     </div>
